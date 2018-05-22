@@ -7,11 +7,6 @@ export default class Navigation extends React.Component{
     render(){
         return(
             <Navbar>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="#">Image Goes Here</a>
-                    </Navbar.Brand>
-                </Navbar.Header>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                 <Nav>
@@ -28,6 +23,9 @@ export default class Navigation extends React.Component{
                         <MenuItem divider />
                         <MenuItem eventKey={3.4}>Separated link</MenuItem>
                     </NavDropdown>
+                    <NavItem eventKey={4} href="#">
+                        Link
+                    </NavItem>
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -1,60 +1,56 @@
 import React from 'react'
+import Droplet from '../static/images/Dropletreal.png'
+import Wind from '../static/images/Wind.png'
+import Electric from '../static/images/Electric.png'
+import NonNatural from '../static/images/NonNatural.png'
+import IndividualProject from './IndividualProject'
+import ProjectsCSS from '../static/stylesheets/ProjectArea.css'
 
 export default class ProjectArea extends React.Component{
 
     render(){
         let style = {
 
-            marginTop:"100px"
+            marginTop:"60px"
 
         };
         return(
             <div className={"row"} style={style}>
 
-                <div className="col-sm-6 col-md-4">
-                    <div className="thumbnail">
-                        <img src="" alt="..." />
-                        <div className="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>...</p>
-                            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#"
-                                                                                                   className="btn btn-default"
-                                                                                                   role="button">Button</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <h1 style={{textAlign:"center",marginBottom:"25px"}}>
+                    PROJECTS
+                </h1>
 
-                <div className="col-sm-6 col-md-4">
-                    <div className="thumbnail">
-                        <img src="" alt="..." />
-                        <div className="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>...</p>
-                            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#"
-                                                                                                   className="btn btn-default"
-                                                                                                   role="button">Button</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <IndividualProject image={Droplet} header={"WATER"} link={"/"}>
+                    <p> Imagine sustainability not only on
+                        energy but also on water. Taking atmospheric
+                        water generators to another level. Giving
+                        you the ability to produce your water at home
+                        extracting it directly from air.
+                    </p>
+                </IndividualProject>
 
-                <div className="col-sm-6 col-md-4">
-                    <div className="thumbnail">
-                        <img src="" alt="..." />
-                        <div className="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>...</p>
-                            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#"
-                                                                                                   className="btn btn-default"
-                                                                                                   role="button">Button</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <IndividualProject image={Wind} header={"WIND"}>
+                    <p> Why limit yourself to produce energy
+                        only on day hours when you can do it during
+                        all day and all night? With our vertical wind turbines
+                        we can give you a constant source of energy to decrease
+                        your energy consumption at home.
+                    </p>
+                </IndividualProject>
 
+                <IndividualProject image={NonNatural} header={"NON-NATURAL WIND"}>
+                    <p> Have you ever felt the wind produced by the speed of a car?
+                        In Watric Energy Resources use the wind produced by cars
+                        movement to generate energy. Within the purpose of use it
+                        for the illumination of our highways bringing sustainability
+                        to our roads.
+                    </p>
+                </IndividualProject>
 
+                <IndividualProject image={Electric} header={"ILLUMINATION"}>
 
+                </IndividualProject>
 
             </div>);
     }

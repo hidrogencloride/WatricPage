@@ -30,6 +30,10 @@ module.exports = {
                 use: {
                     loader: 'bootstrap.native-loader'
                 }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader' ]
             }
         ]
     },
