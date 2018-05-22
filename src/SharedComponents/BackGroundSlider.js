@@ -14,19 +14,20 @@ export default class BackGroundSlider extends React.Component {
     render(){
         return(
                 <div style={{height:507}}>
-                    <Carousel controls={false} >
+                    <Carousel controls={false} className={"back-slider"}>
                         <Carousel.Item>
-                            <img height={500} width={"100%"} alt="900x500" src={test} />
+                            <img className={"img-responsive"}  alt="900x500" src={test} />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img  src={cliff} width={"100%"} height={500}/>
+                            <img className={"img-responsive"} src={cliff} />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img width={"100%"} height={500} alt="900x500" src={Test} />
+                            <img className={"img-responsive"}  alt="900x500" src={Test} />
                         </Carousel.Item>
                     </Carousel>
                 </div>
 
         );
     }
+
 };

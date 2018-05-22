@@ -28,11 +28,13 @@ export default  class IndividualProject extends React.Component{
                     <h3 style={{textAlign:"center"}}>{this.props.header}</h3>
                     <div className={"row "}>
                         <div className={"col-xs-10 col-xs-offset-1 showHover" }>
-                        {this.props.children}
-                            <a className={"btn btn-primary"}>
-                                More Information
-                            </a>
+                            {this.props.children}
                         </div>
+                    </div>
+                    <div className={"row center"}>
+                        <a className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
+                            More Information
+                        </a>
                     </div>
                 </div>
             </div>

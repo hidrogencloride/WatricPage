@@ -18,7 +18,7 @@ export default class ProjectArea extends React.Component{
             <div className={"row"} style={style}>
 
                 <h1 style={{textAlign:"center",marginBottom:"25px"}}>
-                    PROJECTS
+                    PRODUCTS
                 </h1>
 
                 <IndividualProject image={Droplet} header={"WATER"} link={"/"}>
@@ -49,7 +49,11 @@ export default class ProjectArea extends React.Component{
                 </IndividualProject>
 
                 <IndividualProject image={Electric} header={"ILLUMINATION"}>
-
+                    <p>
+                        Have you noticed that even if there is no traffic flow the lights
+                        on the road remain on? With our smart lighting system we eliminate the waste of energy
+                        and save up to a 42% of the energy used on illumination.
+                    </p>
                 </IndividualProject>
 
             </div>);

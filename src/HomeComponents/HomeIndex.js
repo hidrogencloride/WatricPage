@@ -17,6 +17,9 @@ export default class HomeIndex extends React.Component{
                 <BackGroundSlider/>
                 <FrontForSlider/>
                 <ProjectArea />
+                <InfoArea image={AboutUsImage} attachment={"fixed"} opacity={0.6}>
+                    <h1 style={{textAlign:"center"}}>ER Optimization</h1>
+                </InfoArea>
                 <InfoArea image={ContactUsImage} attachment={"initial"} opacity={0}/>
                 <Footer />
             </div>

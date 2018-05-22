@@ -34,10 +34,15 @@
 
 .hideHover > p
 {
+
     visibility: hidden;
     transition: visibility 0.5s;
 }
 
 .hideHover > a {
     visibility: hidden;
+}
+
+.center{
+    margin-top:-100px;
 }
