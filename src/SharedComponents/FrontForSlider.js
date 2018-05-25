@@ -7,8 +7,8 @@ export default class FrontForSlider extends React.Component{
 
     render(){
         return(
-            <div className={"front-part"}>
-                <h1>
+            <div id={"ABOUT"} className={"front-part"}>
+                <h1 style={{opacity:"1"}}>
                     About Us
                 </h1>
             </div>

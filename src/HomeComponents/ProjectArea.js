@@ -15,7 +15,7 @@ export default class ProjectArea extends React.Component{
 
         };
         return(
-            <div className={"row"} style={style}>
+            <div className={"row"} id="PRODUCTS" style={style}>
 
                 <h1 style={{textAlign:"center",marginBottom:"25px"}}>
                     PRODUCTS

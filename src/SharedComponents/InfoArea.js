@@ -5,7 +5,7 @@ export default class InfoArea extends React.Component{
 
     render(){
         let style ={
-            height: "510px",
+            height: "610px",
             backgroundColor:"#cccccc",
             marginTop:"-10px",
             backgroundImage: "url("+this.props.image+")",
@@ -15,8 +15,8 @@ export default class InfoArea extends React.Component{
         };
 
         return (
-            <div style={style} className={"row"}>
-                <div style={{height:"500px", padding:"50px", width:"100%", backgroundColor:"black", opacity:this.props.opacity}}>
+            <div id={this.props.id} style={style} className={"row"}>
+                <div style={{height:"600px", padding:"50px", width:"100%", backgroundColor:"black", opacity:this.props.opacity}}>
                     <div style={{opacity:1}}>
                         {this.props.children}
                     </div>
