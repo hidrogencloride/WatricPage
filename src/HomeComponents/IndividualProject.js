@@ -1,29 +1,11 @@
 import React from 'react'
 
 export default  class IndividualProject extends React.Component{
-    constructor(){
-        super();
-        this.state = {
-            current_class:"hideHover"
-        }
-    }
-
-    showInfo(){
-        this.setState({
-            current_class:"showHover"
-        })
-    }
-
-    hideInfo(){
-        this.setState({
-            current_class:"hideHover"
-        })
-    }
 
     render(){
         return(
-            <div className="col-sm-6 col-md-3 individual">
-                <div className="thumbnail" onMouseOver={this.showInfo.bind(this)} onMouseOut={this.hideInfo.bind(this)}>
+            <div className="col-md-6 col-lg-3 individual">
+                <div className="thumbnail" >
                     <img className="projects" src={this.props.image} alt="..." />
                     <h3 style={{textAlign:"center"}}>{this.props.header}</h3>
                     <div className={"row "}>
@@ -32,7 +14,7 @@ export default  class IndividualProject extends React.Component{
                         </div>
                     </div>
                     <div className={"row center"}>
-                        <a className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
+                        <a onClick={()=>{this.props.onClick()}} className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
                             More Information
                         </a>
                     </div>

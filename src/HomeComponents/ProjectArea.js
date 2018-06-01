@@ -4,9 +4,35 @@ import Wind from '../static/images/Wind.png'
 import Electric from '../static/images/Electric.png'
 import NonNatural from '../static/images/NonNatural.png'
 import IndividualProject from './IndividualProject'
+import MoreInfo from './MoreInfo'
 import ProjectsCSS from '../static/stylesheets/ProjectArea.css'
+import MoreInfoCSS from '../static/stylesheets/MoreInfo.css'
 
 export default class ProjectArea extends React.Component{
+
+    constructor(){
+        super();
+
+        this.state = {
+            activeClass : "no-info",
+            section: ""
+        }
+
+    }
+
+    onClick(section){
+        let activeClass = "show-info";
+        this.setState({
+            section: section,
+            activeClass: activeClass
+        });
+    }
+
+    hideInfo(){
+        this.setState({
+            activeClass: "no-info"
+        })
+    }
 
     render(){
         let style = {
@@ -16,12 +42,14 @@ export default class ProjectArea extends React.Component{
         };
         return(
             <div className={"row"} id="PRODUCTS" style={style}>
-
+                <MoreInfo hideInfo = {()=>{this.hideInfo();}}
+                            section = {this.state.section}
+                                activeClass={this.state.activeClass} />
                 <h1 style={{textAlign:"center",marginBottom:"25px"}}>
                     PRODUCTS
                 </h1>
 
-                <IndividualProject image={Droplet} header={"WATER"} link={"/"}>
+                <IndividualProject  onClick={()=>{this.onClick("WATER")}} image={Droplet} header={"WATER"} link={"/"}>
                     <p> Imagine sustainability not only on
                         energy but also on water. Taking atmospheric
                         water generators to another level. Giving
@@ -30,7 +58,7 @@ export default class ProjectArea extends React.Component{
                     </p>
                 </IndividualProject>
 
-                <IndividualProject image={Wind} header={"WIND"}>
+                <IndividualProject onClick={()=>{this.onClick("WIND")}}  image={Wind} header={"WIND"}>
                     <p> Why limit yourself to produce energy
                         only on day hours when you can do it during
                         all day and all night? With our vertical wind turbines
@@ -39,7 +67,7 @@ export default class ProjectArea extends React.Component{
                     </p>
                 </IndividualProject>
 
-                <IndividualProject image={NonNatural} header={"NON-NATURAL WIND"}>
+                <IndividualProject onClick={()=>this.onClick("NNWIND")} image={NonNatural} header={"NON-NATURAL WIND"}>
                     <p> Have you ever felt the wind produced by the speed of a car?
                         In Watric Energy Resources use the wind produced by cars
                         movement to generate energy. Within the purpose of use it
@@ -48,7 +76,7 @@ export default class ProjectArea extends React.Component{
                     </p>
                 </IndividualProject>
 
-                <IndividualProject image={Electric} header={"ILLUMINATION"}>
+                <IndividualProject onClick={()=>{this.onClick("ILLUMINATION")}} image={Electric} header={"ILLUMINATION"}>
                     <p>
                         Have you noticed that even if there is no traffic flow the lights
                         on the road remain on? With our smart lighting system we eliminate the waste of energy

@@ -1,0 +1,65 @@
+.no-info{
+    position: absolute;
+    left:0px;
+    top:907px;
+    height:0;
+    width:100%;
+    visibility:hidden;
+    transition: height 2s, visibility 0s 2s;
+    z-index: 4;
+}
+
+.show-info{
+    left:0px;
+    top:907px;
+    width:100%;
+    position: absolute;
+    height: 700px;
+    visibility:visible;
+    transition: height 1s;
+    z-index: 4;
+}
+
+.show-info > h1{
+    text-align: center;
+}
+
+.NNWIND{
+    background-color: #94fcec;
+}
+
+.WIND{
+    background-color: #68c486;
+}
+
+.WATER {
+    background-color: #5278e0;
+    color: white;
+}
+
+.ILLUMINATION {
+    background-color: #74747c;
+    color:white;
+}
+
+.glyphicon.glyphicon-chevron-up{
+    font-size: 50px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.no-info{
+    color:transparent;
+}
+
+@media (max-width: 1199px) and (min-width: 993px){
+    .show-info{
+        height:1200px;
+    }
+}
+
+@media (max-width: 992px){
+    .show-info{
+        height: 2250px;
+    }
+}
