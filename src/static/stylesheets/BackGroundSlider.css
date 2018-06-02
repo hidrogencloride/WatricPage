@@ -6,11 +6,20 @@
 .front-part{
     top:410px;
     position:absolute;
-    height: 500px;
+    height: 600px;
     width:100%;
     background-color: black;
     opacity: 0.7;
     z-index: 3;
     color:white;
     text-align: center;
+}
+
+#BackgroundSlider > .carousel > .carousel-indicators {
+    bottom:-100px;
+
+}
+
+#BackgroundSlider > .carousel > .carousel-inner > .item > img{
+    height:100%;
 }

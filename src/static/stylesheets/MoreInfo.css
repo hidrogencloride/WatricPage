@@ -1,17 +1,17 @@
 .no-info{
     position: absolute;
     left:0px;
-    top:907px;
+    top:1010px;
     height:0;
     width:100%;
     visibility:hidden;
-    transition: height 2s, visibility 0s 2s;
+    transition: height 1s, visibility 0.5s 0.5s;
     z-index: 4;
 }
 
 .show-info{
     left:0px;
-    top:907px;
+    top:1010px;
     width:100%;
     position: absolute;
     height: 700px;
@@ -51,6 +51,16 @@
 .no-info{
     color:transparent;
 }
+
+.carousel-show{
+    visibility: visible;
+    transition: visibility 0s, 1s;
+}
+
+#car-container > .carousel > .carousel-inner > .item > img{
+    width:100%;
+}
+
 
 @media (max-width: 1199px) and (min-width: 993px){
     .show-info{

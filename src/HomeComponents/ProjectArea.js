@@ -15,7 +15,8 @@ export default class ProjectArea extends React.Component{
 
         this.state = {
             activeClass : "no-info",
-            section: ""
+            section: "",
+            hideCarousel: false
         }
 
     }
@@ -24,27 +25,28 @@ export default class ProjectArea extends React.Component{
         let activeClass = "show-info";
         this.setState({
             section: section,
-            activeClass: activeClass
+            activeClass: activeClass,
+            hideCarousel: false
         });
     }
 
     hideInfo(){
+        console.log("hiding info");
         this.setState({
-            activeClass: "no-info"
-        })
+            activeClass: "no-info",
+            hideCarousel:true
+        });
     }
 
     render(){
-        let style = {
 
-            marginTop:"60px"
-
-        };
         return(
-            <div className={"row"} id="PRODUCTS" style={style}>
+            <div className={"row"} id="PRODUCTS" style={{marginTop:100, paddingBottom: 50}}>
                 <MoreInfo hideInfo = {()=>{this.hideInfo();}}
                             section = {this.state.section}
-                                activeClass={this.state.activeClass} />
+                                activeClass={this.state.activeClass}
+                                    hideCarousel = {this.state.hideCarousel}
+                />
                 <h1 style={{textAlign:"center",marginBottom:"25px"}}>
                     PRODUCTS
                 </h1>
@@ -56,6 +58,7 @@ export default class ProjectArea extends React.Component{
                         you the ability to produce your water at home
                         extracting it directly from air.
                     </p>
+
                 </IndividualProject>
 
                 <IndividualProject onClick={()=>{this.onClick("WIND")}}  image={Wind} header={"WIND"}>

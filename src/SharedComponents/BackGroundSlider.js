@@ -13,7 +13,7 @@ export default class BackGroundSlider extends React.Component {
 
     render(){
         return(
-                <div style={{height:507}}>
+                <div id = "BackgroundSlider" style={{height:507}}>
                     <Carousel controls={false} className={"back-slider"}>
                         <Carousel.Item>
                             <img className={"img-responsive"}  alt="900x500" src={test} />
