@@ -1,16 +1,20 @@
 import React from 'react'
-import  ImageArea from './ImageArea'
+import ImageArea from './ImageArea'
 import InfoArea from '../SharedComponents/InfoArea'
 import ProjectArea from './ProjectArea'
 import AboutUsImage from '../static/images/About-Us-Banner.jpg'
 import BackGroundSlider from '../SharedComponents/BackGroundSlider'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
 import Footer from './Footer'
+import smallLogo from '../static/images/Logos/SmallLogo.png'
+import Navigation from './Navigation'
+import HOMEINDEX from '../static/stylesheets/HOMEINDEX.css'
 export default class HomeIndex extends React.Component{
 
     render(){
         return(
             <div>
+                <Navigation/>
                 <ImageArea />
                 <BackGroundSlider/>
                 <FrontForSlider/>
@@ -21,7 +25,18 @@ export default class HomeIndex extends React.Component{
                     <h3 style={{textAlign:"center"}}>Optimization Services</h3>
                 </InfoArea>
 
-                <InfoArea id={"CONTACT"} backColor={"white"} textColor={"black"} image={""} attachment={"fixed"} opacity={1}/>
+                <InfoArea id={"CONTACT"} backColor={"white"} textColor={"black"} image={""} attachment={"fixed"} opacity={1}>
+                    <div className={"row"}>
+                        <div className={"col-sm-12"} >
+                            <h1 id={"SUPPORT"}> SUPPORT US </h1>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={"col-sm-4"}>
+                            <img className={"img img-responsive"} src={smallLogo} />
+                        </div>
+                    </div>
+                </InfoArea>
                 <Footer />
             </div>
         );

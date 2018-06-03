@@ -58,9 +58,12 @@
 }
 
 #car-container > .carousel > .carousel-inner > .item > img{
-    width:100%;
+    width:5%;
+    overflow-x: hidden;
 }
+#car-container > .carousel > .carousel-inner{
 
+}
 
 @media (max-width: 1199px) and (min-width: 993px){
     .show-info{

@@ -4,7 +4,7 @@ export default  class IndividualProject extends React.Component{
 
     render(){
         return(
-            <div className="col-md-6 col-lg-3 individual">
+            <div className="col-sm-6 col-md-3 individual">
                 <div className="thumbnail" >
                     <img className="projects" src={this.props.image} alt="..." />
                     <h3 style={{textAlign:"center"}}>{this.props.header}</h3>
@@ -14,7 +14,7 @@ export default  class IndividualProject extends React.Component{
                         </div>
                     </div>
                     <div className={"row center"}>
-                        <a onClick={()=>{this.props.onClick()}} className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
+                        <a className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
                             More Information
                         </a>
                     </div>

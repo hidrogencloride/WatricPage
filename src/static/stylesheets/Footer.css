@@ -2,4 +2,11 @@
     height:50px;
     background-color: #273b5b ;
     margin-top: 50px;
+
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Julius Sans One', sans-serif;
 }

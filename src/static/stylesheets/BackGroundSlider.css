@@ -1,9 +1,11 @@
 .back-slider{
+
     width:100%;
     height: 100%;
 }
 
 .front-part{
+
     top:410px;
     position:absolute;
     height: 600px;
@@ -22,4 +24,5 @@
 
 #BackgroundSlider > .carousel > .carousel-inner > .item > img{
     height:100%;
+    overflow-x:hidden;
 }
