@@ -7,11 +7,13 @@ import BackGroundSlider from '../SharedComponents/BackGroundSlider'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
 import Footer from './Footer'
 import smallLogo from '../static/images/Logos/SmallLogo.png'
+import Logo from '../static/Logo/Logo.jpg'
 import Navigation from './Navigation'
 import HOMEINDEX from '../static/stylesheets/HOMEINDEX.css'
 export default class HomeIndex extends React.Component{
 
     render(){
+
         return(
             <div>
                 <Navigation/>
@@ -19,6 +21,7 @@ export default class HomeIndex extends React.Component{
                 <BackGroundSlider/>
                 <FrontForSlider/>
                 <ProjectArea />
+
 
                 <InfoArea id={"SERVICES"} backColor={"black"} textColor={"white"} image={AboutUsImage} attachment={"fixed"} opacity={0.6}>
                     <h1 style={{textAlign:"center"}}>ER</h1>
@@ -34,6 +37,9 @@ export default class HomeIndex extends React.Component{
                     <div>
                         <div className={"col-sm-4"}>
                             <img className={"img img-responsive"} src={smallLogo} />
+                        </div>
+                        <div className={"col-sm-4"}>
+                            <img className={"img img-responsive"} src={Logo} />
                         </div>
                     </div>
                 </InfoArea>

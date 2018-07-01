@@ -51,7 +51,7 @@ export default class BackGroundSlider extends React.Component {
                     <div id={"slogan"}>
                         <div class="col-md-12 text-center">
                             <h3>
-                                <p>Creating {status.current_word}
+                                <p>Creating
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 out of thin air</p>
                             </h3>

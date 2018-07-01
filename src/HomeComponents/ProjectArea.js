@@ -1,8 +1,8 @@
 import React from 'react'
-import Droplet from '../static/images/Dropletreal.png'
-import Wind from '../static/images/Wind.png'
-import Electric from '../static/images/Electric.png'
-import NonNatural from '../static/images/NonNatural.png'
+import Droplet from '../static/Logo/Drop.png'
+import Wind from '../static/Logo/Wind.png'
+import Electric from '../static/Logo/Electric.png'
+import NonNatural from '../static/Logo/NonNatural.png'
 import IndividualProject from './IndividualProject'
 import ProjectsCSS from '../static/stylesheets/ProjectArea.css'
 
