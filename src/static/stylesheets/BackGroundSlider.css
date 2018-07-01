@@ -17,12 +17,21 @@
     text-align: center;
 }
 
+#slogan{
+    top:96.5%;
+    left:1.5%;
+    position: absolute;
+    width:100%;
+    color:white;
+    text-align:left;
+}
+
 #BackgroundSlider > .carousel > .carousel-indicators {
     bottom:-100px;
-
 }
 
 #BackgroundSlider > .carousel > .carousel-inner > .item > img{
     height:100%;
     overflow-x:hidden;
+
 }
