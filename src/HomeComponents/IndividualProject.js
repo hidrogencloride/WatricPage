@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default  class IndividualProject extends React.Component{
 
@@ -14,9 +15,9 @@ export default  class IndividualProject extends React.Component{
                         </div>
                     </div>
                     <div className={"row center"}>
-                        <a className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
+                        <Link to="/GenericProduct" className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
                             More Information
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

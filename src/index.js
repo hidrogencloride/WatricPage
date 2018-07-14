@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter, Route, Redirect, Switch} from 'react-router-dom'
+import {BrowserRouter, Route , Switch, withRouter} from 'react-router-dom'
 
 import HomeIndex from './HomeComponents/HomeIndex'
-import Navigation from './HomeComponents/Navigation'
+import GenericComp from './ProductComponents/GenericProduct'
 
-class Test extends React.Component{
-    render(){
-       return( <h1>
-            test
-        </h1>)
+class ScrollToTop extends React.Component {
+    componentDidUpdate() {
+            window.scrollTo(0, 0)
+    }
+
+    render() {
+        return this.props.children
     }
 }
+
 
 class Index extends React.Component{
 
@@ -22,11 +25,14 @@ class Index extends React.Component{
     render(){
         return (
         <div >
-            <HashRouter>
-                <Switch>
-                    <Route path = "/" component = {HomeIndex} />
-                </Switch>
-            </HashRouter>
+            <BrowserRouter onUpdate={() => window.scrollTo(0, 0)} >
+                <ScrollToTop>
+                    <Switch>
+                        <Route exact path = "/" component = {HomeIndex} />
+                        <Route path = "/:product" component = {GenericComp}/>
+                    </Switch>
+                </ScrollToTop>
+            </BrowserRouter>
         </div>
         )
     }
