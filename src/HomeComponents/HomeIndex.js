@@ -6,7 +6,6 @@ import AboutUsImage from '../static/images/About-Us-Banner.jpg'
 import BackGroundSlider from '../SharedComponents/BackGroundSlider'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
 import Footer from './Footer'
-import smallLogo from '../static/images/Logos/SmallLogo.png'
 import Logo from '../static/Logo/Logo.jpg'
 import Navigation from './Navigation'
 import HOMEINDEX from '../static/stylesheets/HOMEINDEX.css'
@@ -35,9 +34,6 @@ export default class HomeIndex extends React.Component{
                         </div>
                     </div>
                     <div>
-                        <div className={"col-sm-4"}>
-                            <img className={"img img-responsive"} src={smallLogo} />
-                        </div>
                         <div className={"col-sm-4"}>
                             <img className={"img img-responsive"} src={Logo} />
                         </div>
