@@ -7,7 +7,7 @@ export default  class IndividualProject extends React.Component{
         return(
             <div className="col-sm-6 col-md-3 individual">
                 <div className="thumbnail" >
-                    <img className="projects" src={this.props.image} alt="..." />
+                    <img className="projects" src={this.props.image} width="50%" alt="..." />
                     <h3 style={{textAlign:"center"}}>{this.props.header}</h3>
                     <div className={"row "}>
                         <div className={"col-xs-10 col-xs-offset-1 showHover" }>
