@@ -17,6 +17,7 @@ export default class FrontForSlider extends React.Component{
                 <p>
                     Text
                 </p>
+
             </div>
         )
     }

@@ -26,12 +26,9 @@ class Index extends React.Component{
         return (
         <div >
             <BrowserRouter onUpdate={() => window.scrollTo(0, 0)} >
-                <ScrollToTop>
-                    <Switch>
-                        <Route exact path = "/" component = {HomeIndex} />
-                        <Route path = "/:product" component = {GenericComp}/>
-                    </Switch>
-                </ScrollToTop>
+                <Switch>
+                    <Route route={"/"} component={HomeIndex} />
+                </Switch>
             </BrowserRouter>
         </div>
         )
