@@ -44,18 +44,20 @@ export default class Navigation extends React.Component{
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                 <Nav>
-                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("SERVICES"))}} eventKey={1} href="#">
-                        Services
+                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("ABOUT"))}} eventKey={4} href="#">
+                        About Us
                     </NavItem>
                     <NavItem onClick={()=>{this.scrollDown(document.getElementById("PRODUCTS"))}} eventKey={2} href="#">
                         Products
                     </NavItem>
+                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("SERVICES"))}} eventKey={1} href="#">
+                        Services
+                    </NavItem>
+
                     <NavItem onClick={()=>{this.scrollDown(document.getElementById("CONTACT"))}} >
                         Contact Us
                     </NavItem>
-                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("ABOUT"))}} eventKey={4} href="#">
-                        About Us
-                    </NavItem>
+
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

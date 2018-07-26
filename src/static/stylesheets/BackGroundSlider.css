@@ -4,6 +4,14 @@
     height: 100%;
 }
 
+.about-text{
+    margin-top:30px;
+    padding-left:20%;
+    padding-right:20%;
+    font-size:20px;
+    text-align:initial;
+}
+
 .front-part{
     top:410px;
     position:absolute;
@@ -26,7 +34,10 @@
     z-index:10;
 }
 
-
+.caption{
+    position: relative;
+    z-index: 1000;
+}
 
 #BackgroundSlider > .carousel > .carousel-indicators {
     bottom:-100px;
@@ -39,4 +50,11 @@
 #BackgroundSlider > .carousel > .carousel-inner > .item > img{
     height:100%;
     overflow-x:hidden;
+}
+
+@media only screen and (max-width: 1122px) {
+    .about-text{
+        padding-left:10%;
+        padding-right: 10%;
+    }
 }

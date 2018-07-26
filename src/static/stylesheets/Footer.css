@@ -10,3 +10,8 @@ html, body {
     overflow-x: hidden;
     font-family: 'Julius Sans One', sans-serif;
 }
+.carousel-caption{
+    z-index: 1000000;
+    color: white;
+    text-shadow: initial;
+}

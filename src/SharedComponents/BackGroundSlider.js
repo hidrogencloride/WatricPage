@@ -36,34 +36,34 @@ export default class BackGroundSlider extends React.Component {
         }
 
         return(
-            <div class="row">
-                <div class="col-md-12">
+            <div className ="row">
+                <div className ="col-md-12">
                     <div id = "BackgroundSlider" style={{height:507}}>
                         <Carousel controls={false} className={"back-slider"}>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img className={""}  style={style} alt="900x500" src={test} />
-                                    <Carousel.Caption>
-                                        <h3 >
-                                            energy
-                                        </h3>
+                                    <Carousel.Caption >
+
+                                        <h3 className={"caption"}> energy</h3>
+
                                     </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img className={""} style={style} src={cliff} />
                                 <Carousel.Caption>
-                                    <h3 >
-                                        water
-                                    </h3>
+
+                                    <h3> water</h3>
+
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
                     </div>
 
                     <div id={"slogan"}>
-                        <div class="col-md-12 text-center">
+                        <div className ="col-md-12 text-center">
                             <h3>
-                                <p>Creating
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <p style={{marginLeft:-50}}>Like Creating
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 out of thin air</p>
                             </h3>
                         </div>
