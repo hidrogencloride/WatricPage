@@ -15,9 +15,9 @@ export default  class IndividualProject extends React.Component{
                         </div>
                     </div>
                     <div className={"row center"}>
-                        <Link to="/GenericProduct" className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
+                        <a  href = "/nonNaturalWind" className={"col-xs-offset-2 col-xs-8 btn btn-primary "}>
                             More Information
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
