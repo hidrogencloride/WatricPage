@@ -16,7 +16,7 @@ export default class ProjectArea extends React.Component{
                     PRODUCTS
                 </h1>
 
-                <IndividualProject  image={Droplet} header={"WATER"} link={"/"}>
+                <IndividualProject  image={Droplet} header={"WATER"} link={"/water"}>
                     <p> Imagine sustainability not only on
                         energy but also on water. Taking atmospheric
                         water generators to another level. Giving
@@ -26,7 +26,7 @@ export default class ProjectArea extends React.Component{
 
                 </IndividualProject>
 
-                <IndividualProject image={Wind} header={"WIND"}>
+                <IndividualProject image={Wind} header={"WIND"} link={"/naturalWind"}>
                     <p> Why limit yourself to produce energy
                         only on day hours when you can do it during
                         all day and all night? With our vertical wind turbines
@@ -35,7 +35,7 @@ export default class ProjectArea extends React.Component{
                     </p>
                 </IndividualProject>
 
-                <IndividualProject image={NonNatural} header={"NON-NATURAL WIND"}>
+                <IndividualProject image={NonNatural} header={"NON-NATURAL WIND"} link={"/nonNaturalWind"}>
                     <p> Have you ever felt the wind produced by the speed of a car?
                         In Watric Energy Resources use the wind produced by cars
                         movement to generate energy. Within the purpose of use it
@@ -44,7 +44,7 @@ export default class ProjectArea extends React.Component{
                     </p>
                 </IndividualProject>
 
-                <IndividualProject image={Electric} header={"ILLUMINATION"}>
+                <IndividualProject image={Electric} header={"ILLUMINATION"} link={"/illumination"}>
                     <p>
                         Have you noticed that even if there is no traffic flow the lights
                         on the road remain on? With our smart lighting system we eliminate the waste of energy

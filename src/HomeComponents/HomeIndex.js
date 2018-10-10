@@ -20,11 +20,20 @@ export default class HomeIndex extends React.Component{
                 <BackGroundSlider/>
                 <FrontForSlider/>
                 <ProjectArea />
+
                 <InfoArea id={"SERVICES"} backColor={"black"} textColor={"white"} image={AboutUsImage} attachment={"fixed"} opacity={0.6}>
-                    <h1 style={{textAlign:"center"}}>ER</h1>
-                    <h3 style={{textAlign:"center"}}>Optimization Services</h3>
-                    <p>[INSERT ER OPTIMIZATION TEXT]</p>
+                    <h1 style={{textAlign:"center"}}>
+                        ER
+                    </h1>
+                    <h3 style={{textAlign:"center"}}>
+                        Optimization Services
+                    </h3>
+
+                    <p style={{textAlign:"center"}}>
+                        [INSERT ER OPTIMIZATION TEXT]
+                    </p>
                 </InfoArea>
+
                 <InfoArea id={"CONTACT"} backColor={"white"} textColor={"black"} image={""} attachment={"fixed"} opacity={1}>
                     <div className={"row"}>
                         <div className={"col-sm-12"} >
