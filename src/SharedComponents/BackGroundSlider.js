@@ -62,9 +62,11 @@ export default class BackGroundSlider extends React.Component {
                     <div id={"slogan"}>
                         <div className ="col-md-12 text-center">
                             <h3>
-                                <p style={{marginLeft:-1000}}>Like Creating
+                                <p style={{marginLeft:-1000}}>
+                                    Like Creating
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                out of thin air</p>
+                                out of thin air
+                                </p>
                             </h3>
                         </div>
                     </div>

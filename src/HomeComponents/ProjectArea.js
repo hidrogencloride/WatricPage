@@ -37,7 +37,7 @@ export default class ProjectArea extends React.Component{
 
                 <IndividualProject image={NonNatural} header={"NON-NATURAL WIND"} link={"/nonNaturalWind"}>
                     <p> Have you ever felt the wind produced by the speed of a car?
-                        In Watric Energy Resources use the wind produced by cars
+                        In Watric Energy Resources we use the wind produced by cars
                         movement to generate energy. Within the purpose of use it
                         for the illumination of our highways bringing sustainability
                         to our roads.
