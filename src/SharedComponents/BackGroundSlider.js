@@ -64,7 +64,7 @@ export default class BackGroundSlider extends React.Component {
                         <div className ="col-md-12 text-center">
                                 <p style={{marginLeft:-950}}>
                                     Like Creating
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     out of thin air
                                 </p>
                         </div>

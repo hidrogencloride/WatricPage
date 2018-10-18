@@ -21,28 +21,26 @@
     z-index: 2;
     text-align: center;
     color: white;
-    background-color:rgba(0, 0, 0, 0.3);
-    font-family: Arial;
+    background-color:rgba(0, 0, 0, 0.4);
 }
 
 #slogan{
     top:95.5%;
-    left: 7.3%;
+    left: 14.3%;
     position: absolute;
     width:100%;
     color:white;
     text-align:left;
     z-index:4;
     font-size: 40px;
-    font-family: Arial;
 }
 
 .caption{
-    left: 9.8%;
+    left: 18.8%;
     position: relative;
     z-index: 1;
     font-size: 40px;
-    font-family: Arial;
+    color: white;
 }
 
 #BackgroundSlider > .carousel > .carousel-indicators {

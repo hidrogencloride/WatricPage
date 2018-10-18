@@ -20,6 +20,8 @@ export default class FrontForSlider extends React.Component{
                     We bring sustainability by developing and
                     <br/>
                     implementing new ways of resources extraction and renewable energy.
+                    <br/>
+                    Learn more <a href="https://watricpr.com/about">here</a>.
                 </p>
             </div>
         )
