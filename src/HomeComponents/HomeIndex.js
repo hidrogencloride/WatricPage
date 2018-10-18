@@ -21,7 +21,7 @@ export default class HomeIndex extends React.Component{
                 <FrontForSlider/>
                 <ProjectArea />
 
-                <InfoArea id={"SERVICES"} backColor={"black"} textColor={"white"} image={AboutUsImage} attachment={"fixed"} opacity={0.6}>
+                <InfoArea id={"SERVICES"} backColor={"rgba(0, 0, 0, 0.3)"} textColor={"white"} image={AboutUsImage} attachment={"fixed"}>
                     <h1 style={{textAlign:"center"}}>
                         ER
                     </h1>
@@ -29,8 +29,12 @@ export default class HomeIndex extends React.Component{
                         Optimization Services
                     </h3>
 
-                    <p style={{textAlign:"center"}}>
-                        [INSERT ER OPTIMIZATION TEXT]
+                    <p id={"ER-Body"}>
+                        One of our principal values is to make sustainability more accessible and provide options so
+                        everyone can start moving to renewable energy and resources. This is why we started the ER
+                        Optimization Service which gives the option to achieve savings on energy and water consumption
+                        for those who can't afford a whole sustainable system for their houses. Click on the button
+                        below to know more and get you're quote now.
                     </p>
                 </InfoArea>
 

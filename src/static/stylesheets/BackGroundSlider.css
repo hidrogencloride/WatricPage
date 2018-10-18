@@ -8,8 +8,9 @@
     margin-top:30px;
     padding-left:20%;
     padding-right:20%;
-    font-size:20px;
+    font-size:40px;
     text-align:initial;
+    color: white;
 }
 
 .front-part{
@@ -17,26 +18,31 @@
     position:absolute;
     height: 600px;
     width:100%;
-    background-color: black;
-    opacity: 0.4;
-    z-index: 3;
-    color:white;
+    z-index: 2;
     text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.3);
+    font-family: Arial;
 }
 
 #slogan{
-    top:96.5%;
-    left:1.5%;
+    top:95.5%;
+    left: 7.3%;
     position: absolute;
     width:100%;
     color:white;
     text-align:left;
-    z-index:10;
+    z-index:4;
+    font-size: 40px;
+    font-family: Arial;
 }
 
 .caption{
+    left: 9.8%;
     position: relative;
-    z-index: 1000;
+    z-index: 1;
+    font-size: 40px;
+    font-family: Arial;
 }
 
 #BackgroundSlider > .carousel > .carousel-indicators {
