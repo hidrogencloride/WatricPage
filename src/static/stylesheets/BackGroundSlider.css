@@ -9,8 +9,17 @@
     padding-left:20%;
     padding-right:20%;
     font-size:40px;
-    text-align:initial;
     color: white;
+    font-family: sans-serif;
+}
+
+.learn-more{
+    margin-top:185px;
+    padding-left:20%;
+    padding-right:5%;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
 }
 
 .front-part{
@@ -25,8 +34,8 @@
 }
 
 #slogan{
-    top:95.5%;
-    left: 14.3%;
+    top:75.5%;
+    left: 13.3%;
     position: absolute;
     width:100%;
     color:white;
@@ -36,11 +45,10 @@
 }
 
 .caption{
-    left: 18.8%;
+    left: 16.8%;
     position: relative;
     z-index: 1;
     font-size: 40px;
-    color: white;
 }
 
 #BackgroundSlider > .carousel > .carousel-indicators {

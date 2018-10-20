@@ -1,5 +1,6 @@
-import {Navbar, Nav, NavItem} from 'react-bootstrap'
-import React from 'react'
+import {Navbar, Nav, NavItem} from 'react-bootstrap';
+import React from 'react';
+import NavCSS from '../static/stylesheets/Navigation.css';
 
 
 export default class Navigation extends React.Component{

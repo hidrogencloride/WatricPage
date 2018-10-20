@@ -6,3 +6,11 @@
     float: none;
     display: inline-block;
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+
+.navbar-default{
+    background-color: white;
+}
