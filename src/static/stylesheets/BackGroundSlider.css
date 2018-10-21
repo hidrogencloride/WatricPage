@@ -1,5 +1,4 @@
 .back-slider{
-
     width:100%;
     height: 100%;
 }
@@ -27,28 +26,31 @@
     position:absolute;
     height: 600px;
     width:100%;
-    z-index: 2;
     text-align: center;
     color: white;
-    background-color:rgba(0, 0, 0, 0.4);
+    /*background-color:rgba(0, 0, 0, 0.4);*/
+    z-index: 0;
 }
 
 #slogan{
     top:75.5%;
-    left: 13.3%;
+    left: 2%;
+    padding-left: 10%;
     position: absolute;
     width:100%;
     color:white;
     text-align:left;
-    z-index:4;
     font-size: 40px;
+    font-family: sans-serif;
+    z-index: 1;
 }
 
 .caption{
-    left: 16.8%;
+    left: 9.5%;
     position: relative;
-    z-index: 1;
     font-size: 40px;
+    font-family: sans-serif;
+    z-index: 1;
 }
 
 #BackgroundSlider > .carousel > .carousel-indicators {
@@ -56,6 +58,7 @@
 }
 
 #BackgroundSlider > .carousel > .carousel-caption {
+    z-index: 1;
 
 }
 

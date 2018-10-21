@@ -1,6 +1,6 @@
 .footer{
-    height:50px;
-    background-color: #273b5b ;
+    height:200px;
+    background-color: black;
     margin-top: 50px;
 
 }
@@ -8,10 +8,40 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: sans-serif;
+    color: white;
+}
+
+.follow{
+    left: 19.5%;
 }
 .carousel-caption{
-    z-index: 1000000;
+    position: absolute;
+    z-index: 2;
     color: white;
-    text-shadow: initial;
+
 }
+
+.fa {
+  padding: 60px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
