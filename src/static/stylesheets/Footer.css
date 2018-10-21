@@ -9,11 +9,11 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     font-family: sans-serif;
-    color: white;
 }
 
 .follow{
     left: 19.5%;
+    color: white;
 }
 .carousel-caption{
     position: absolute;
