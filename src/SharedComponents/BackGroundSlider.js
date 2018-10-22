@@ -1,8 +1,8 @@
 import React from 'react'
 
 import {Carousel} from 'react-bootstrap'
-import test from '../static/images/niagara-218591_1920-foreground.jpg'
-import cliff from '../static/images/cliffs-climbing-clouds-746421-foreground.jpg'
+import test from '../static/images/beautiful-bird-s-eye-view-boats-1039302.png'
+import cliff from '../static/images/blur-blurred-blurred-background-694905.png'
 import sun from '../static/images/sun-on-buildings.jpg'
 import Stylesheet from '../static/stylesheets/BackGroundSlider.css'
 import FrontForSlider from '../SharedComponents/FrontForSlider'

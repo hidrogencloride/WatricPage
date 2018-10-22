@@ -4,7 +4,7 @@ export default class Footer extends React.Component{
     render(){
         return(
             <div className={"footer"} align="right">
-                <h3 className={"follow"}>Follow us:</h3>
+                <h3 className={"follow"}>Follow Us:</h3>
                 <a href="https://www.facebook.com/WatricEnergyResources/" target="_blank" className="fa fa-facebook"></a>
                 <a href="https://www.instagram.com/watric.er/" target="_blank" className="fa fa-instagram"></a>
             </div>

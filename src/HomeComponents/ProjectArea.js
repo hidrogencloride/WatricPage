@@ -17,11 +17,9 @@ export default class ProjectArea extends React.Component{
                 </h1>
 
                 <IndividualProject  image={Droplet} header={"WATER"} link={"/water"}>
-                    <p> Imagine sustainability not only on
-                        energy but also on water. Taking atmospheric
-                        water generators to another level. Giving
-                        you the ability to produce your water at home
-                        extracting it directly from air.
+                    <p> Imagine sustainability, not only of energy but also of water.
+                        Taking atmospheric water generators to another level. Giving you
+                        the ability to produce your water at home, extracting it directly from air.
                     </p>
 
                 </IndividualProject>
@@ -36,19 +34,19 @@ export default class ProjectArea extends React.Component{
                 </IndividualProject>
 
                 <IndividualProject image={NonNatural} header={"NON-NATURAL WIND"} link={"/nonNaturalWind"}>
-                    <p> Have you ever felt the wind produced by the speed of a car?
-                        In Watric Energy Resources we use the wind produced by cars
-                        movement to generate energy. Within the purpose of use it
-                        for the illumination of our highways bringing sustainability
-                        to our roads.
+                    <p> Have you ever felt the wind produced by the speed of a car? At Watric Energy Resources, we use
+                        the wind produced by cars to generate energy. This energy is then used to illuminate our
+                        highways, bringing energy sustainability to our roads.
                     </p>
                 </IndividualProject>
 
                 <IndividualProject image={Electric} header={"ILLUMINATION"} link={"/illumination"}>
                     <p>
-                        Have you noticed that even if there is no traffic flow the lights
-                        on the road remain on? With our smart lighting system we eliminate the waste of energy
-                        and save up to a 42% of the energy used on illumination.
+                        Have you noticed that even if there is no
+                        traffic flow, the lights on the road remain on?
+                        With our smart lighting system, we eliminate the
+                        waste of energy and save up to a 42% of the energy
+                        used on illumination.
                     </p>
                 </IndividualProject>
 
