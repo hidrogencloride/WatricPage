@@ -67,9 +67,96 @@
     overflow-x:hidden;
 }
 
-@media only screen and (max-width: 1122px) {
-    .about-text{
-        padding-left:10%;
-        padding-right: 10%;
+
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {
+    .back-slider{
+        width:100%;
+        height: 100%;
     }
+
+    .about-text{
+        margin-top:30px;
+        padding-left:20%;
+        padding-right:20%;
+        font-size:40px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .learn-more{
+        margin-top:185px;
+        padding-left:20%;
+        padding-right:5%;
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .front-part{
+        top:410px;
+        position:absolute;
+        height: 600px;
+        width:100%;
+        text-align: center;
+        color: white;
+        z-index: 0;
+    }
+
+    #slogan{
+        top:75.5%;
+        left: 2%;
+        padding-left: 10%;
+        position: absolute;
+        width:100%;
+        color:white;
+        text-align:left;
+        font-size: 40px;
+        font-family: sans-serif;
+        z-index: 1;
+    }
+
+    .caption{
+        left: 9.5%;
+        position: relative;
+        font-size: 40px;
+        font-family: sans-serif;
+        z-index: 1;
+    }
+
+    #BackgroundSlider > .carousel > .carousel-indicators {
+        bottom:-100px;
+    }
+
+    #BackgroundSlider > .carousel > .carousel-caption {
+        z-index: 1;
+
+    }
+
+    #BackgroundSlider > .carousel > .carousel-inner > .item > img{
+        height:100%;
+        overflow-x:hidden;
+    }
+
+}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

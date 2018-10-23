@@ -21,10 +21,10 @@ export default class ImageArea extends React.Component{
             toRender = RectLogo
         }else{
             imageStyle = {
-                height:"500px",
+                height:"700px",
                 marginRight:"auto",
                 marginLeft:"auto",
-                marginTop:"-170px"};
+                marginTop:"-300px"};
             toRender = BigLogo
         }
 
