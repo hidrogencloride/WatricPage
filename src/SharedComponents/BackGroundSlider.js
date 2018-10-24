@@ -1,8 +1,8 @@
 import React from 'react'
 
 import {Carousel} from 'react-bootstrap'
-import test from '../static/images/beautiful-bird-s-eye-view-boats-1039302.png'
-import cliff from '../static/images/blur-blurred-blurred-background-694905.png'
+import test from '../static/images/asphalt-cars-drive-541333.png'
+import cliff from '../static/images/abstract-bright-bubble-236950.png'
 import sun from '../static/images/sun-on-buildings.jpg'
 import Stylesheet from '../static/stylesheets/BackGroundSlider.css'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
@@ -43,14 +43,14 @@ export default class BackGroundSlider extends React.Component {
                             <Carousel.Item >
                                 <img className={""}  style={style} alt="900x500" src={test} />
                                     <Carousel.Caption>
-                                        <p style={{marginLeft:-900, marginBottom: 110, color: "yellow"}} className={"caption"}> energy</p>
+                                        <p style={{marginLeft:-900, marginBottom: 110}} className={"caption"}> energy</p>
                                     </Carousel.Caption>
                             </Carousel.Item>
 
                             <Carousel.Item>
                                 <img className={""} style={style} src={cliff} />
                                 <Carousel.Caption>
-                                    <p style={{marginLeft:-900, marginBottom: 110, color: "#4680dd"}} className={"caption"}> water</p>
+                                    <p style={{marginLeft:-900, marginBottom: 110}} className={"caption"}> water</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
