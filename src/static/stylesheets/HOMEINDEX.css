@@ -1,3 +1,13 @@
+#ER-Body{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: left;
+    opacity: 1;
+    padding: 35px;
+    /*padding-right: 500px;*/
+
+}
+
 #SUPPORT{
     font-size: 50px;
     margin-left: -10px;
@@ -13,16 +23,6 @@
     font-size: 30px;
     text-align: left;
     padding: 35px;
-}
-
-#ER-Body{
-    font-family: sans-serif;
-    font-size: 30px;
-    text-align: left;
-    opacity: 1;
-    padding: 35px;
-    /*padding-right: 500px;*/
-
 }
 
 .background{

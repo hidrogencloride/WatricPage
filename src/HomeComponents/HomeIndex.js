@@ -2,7 +2,7 @@ import React from 'react'
 import ImageArea from './ImageArea'
 import InfoArea from '../SharedComponents/InfoArea'
 import ProjectArea from './ProjectArea'
-import AboutUsImage from '../static/images/About-Us-Banner.jpg'
+import AboutUsImage from '../static/images/cabinet-contemporary-counter-1080721.jpg'
 import BackGroundSlider from '../SharedComponents/BackGroundSlider'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
 import Footer from './Footer'
@@ -30,11 +30,8 @@ export default class HomeIndex extends React.Component{
                     </h3>
 
                     <p id={"ER-Body"}>
-                        One of our principal values is to make sustainability accessible and provide options so
-                        everyone can start moving to renewable energy and resources. Therefore, we started the ER
-                        Optimization Service which gives the option to achieve savings on energy and water consumption
-                        for those who can't afford a whole sustainable system for their houses. Click on the button
-                        below to know more and get you're quote now.
+                        Now you have the option of cutting down your costs of water and energy in home, even if you
+                        don't own a renewable energy system. Click below and start today!
                     </p>
                 </InfoArea>
 
@@ -42,11 +39,13 @@ export default class HomeIndex extends React.Component{
                     <div className={"row"}>
                         <div className={"col-sm-12"} >
                             <h1 id={"SUPPORT"}> SUPPORT US </h1>
-                        </div>
-                    </div>
-                    <div>
-                        <div className={"col-sm-4"}>
-                            <img className={"img img-responsive"} src={Logo} />
+                            <p id={"SUPPORT-Body"}>
+                                Help us construct a sustainable world!
+                                <br/><br/>
+                                If you’re passionate about renewable resources and believe our project can make an
+                                impact, you can start supporting us today. Every donation counts, with your help we
+                                will continue to help people with low resources decrease water and energy consumption.
+                            </p>
                         </div>
                     </div>
                 </InfoArea>
