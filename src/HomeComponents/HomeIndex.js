@@ -2,7 +2,7 @@ import React from 'react'
 import ImageArea from './ImageArea'
 import InfoArea from '../SharedComponents/InfoArea'
 import ProjectArea from './ProjectArea'
-import AboutUsImage from '../static/images/cabinet-contemporary-counter-1080721.jpg'
+import AboutUsImage from '../static/images/cabinet-contemporary-counter-1080721.png'
 import BackGroundSlider from '../SharedComponents/BackGroundSlider'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
 import Footer from './Footer'
@@ -29,9 +29,13 @@ export default class HomeIndex extends React.Component{
                         Optimization Services
                     </h3>
 
-                    <p id={"ER-Body"}>
-                        Now you have the option of cutting down your costs of water and energy in home, even if you
-                        don't own a renewable energy system. Click below and start today!
+                    <p id={"ER-Body"} align="left" style={{ paddingLeft:'4%', marginTop:'5%'}}>
+                        Now you have the option of cutting down your costs
+                        <br/>
+                        of water and energy in your home, even if you don't own a renewable energy system.
+                    </p>
+                    <p className={"learn-more"} align="right">
+                        Click <a href="#">here</a> and start today!
                     </p>
                 </InfoArea>
 

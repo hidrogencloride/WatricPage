@@ -3,9 +3,10 @@ import FooterCSS from '../static/stylesheets/Footer.css'
 export default class Footer extends React.Component{
     render(){
         return(
-            <div className={"footer"} align="right">
+            <div className={"footer"} align="right" style={{paddingRight: "100px"}}>
                 <h3 className={"follow"}>Follow Us:</h3>
                 <a href="https://www.facebook.com/WatricEnergyResources/" target="_blank" className="fa fa-facebook"></a>
+                <a href="https://twitter.com/search?src=typd&q=watric" target="_blank" className="fa fa-twitter"></a>
                 <a href="https://www.instagram.com/watric.er/" target="_blank" className="fa fa-instagram"></a>
             </div>
 
