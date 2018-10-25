@@ -6,7 +6,7 @@ import AboutUsImage from '../static/images/cabinet-contemporary-counter-1080721.
 import BackGroundSlider from '../SharedComponents/BackGroundSlider'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
 import Footer from './Footer'
-import Logo from '../static/Logo/Logo.jpg'
+import Logo from '../static/Logo/Logo.png'
 import Navigation from './Navigation'
 import HOMEINDEX from '../static/stylesheets/HOMEINDEX.css'
 export default class HomeIndex extends React.Component{
@@ -21,36 +21,26 @@ export default class HomeIndex extends React.Component{
                 <FrontForSlider/>
                 <ProjectArea />
 
-                <InfoArea id={"SERVICES"} backColor={"rgba(0, 0, 0, 0.3)"} textColor={"white"} image={AboutUsImage} attachment={"fixed"}>
-                    <h1 style={{textAlign:"center"}}>
-                        ER
-                    </h1>
-                    <h3 style={{textAlign:"center"}}>
-                        Optimization Services
-                    </h3>
-
-                    <p id={"ER-Body"} align="left" style={{ paddingLeft:'4%', marginTop:'5%'}}>
-                        Now you have the option of cutting down your costs
-                        <br/>
-                        of water and energy in your home, even if you don't own a renewable energy system.
-                    </p>
-                    <p className={"learn-more"} align="right">
-                        Click <a href="#">here</a> and start today!
-                    </p>
-                </InfoArea>
-
                 <InfoArea id={"CONTACT"} backColor={"white"} textColor={"black"} image={""} attachment={"fixed"} opacity={1}>
                     <div className={"row"}>
                         <div className={"col-sm-12"} >
                             <h1 id={"SUPPORT"}> SUPPORT US </h1>
+                            <div>
+                                <div className={"col-sm-4"}>
+                                    <img className={"img img-responsive"} src={Logo}/>
+                                </div>
+                            </div>
                             <p id={"SUPPORT-Body"}>
-                                Help us construct a sustainable world!
-                                <br/><br/>
-                                If you’re passionate about renewable resources and believe our project can make an
-                                impact, you can start supporting us today. Every donation counts, with your help we
-                                will continue to help people with low resources decrease water and energy consumption.
+                                You can help us make a sustainable world faster!
+                                <br/>
+                                There are many ways of supporting us
+                                where you will impulse our progress and take our technology into market. Click below to support us now.
+                            </p>
+                            <p className={"support-us"} align="right">
+                                Support us <a href="https://watricpr.com/supportUs">here</a>!
                             </p>
                         </div>
+
                     </div>
                 </InfoArea>
                 <Footer />

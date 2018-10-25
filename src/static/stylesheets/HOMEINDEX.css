@@ -3,7 +3,7 @@
     font-size: 40px;
     margin-top:30px;
     text-align: left;
-    padding-right:10%;
+    padding-right:0%;
 
 }
 
@@ -19,9 +19,18 @@
 
 #SUPPORT-Body{
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     padding: 35px;
+}
+
+.support-us{
+    margin-top:40px;
+    padding-left:20%;
+    padding-right:80px;
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
 }
 
 .background{
@@ -57,9 +66,9 @@ h1, h2{
 
     #SUPPORT-Body{
         font-family: sans-serif;
-        font-size: 30px;
+        font-size: 40px;
         text-align: left;
-        padding: 35px;
+        padding: 0px;
     }
 
     .background{
