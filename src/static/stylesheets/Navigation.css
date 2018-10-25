@@ -8,9 +8,9 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: white;
 }
 
 .navbar-default{
-    background-color: white;
+    background-color: black;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import {Carousel} from 'react-bootstrap'
 import test from '../static/images/asphalt-cars-drive-541333.png'
-import cliff from '../static/images/abstract-bright-bubble-236950.png'
+import cliff from '../static/images/blur-bubble-clean-221382.png'
 import sun from '../static/images/sun-on-buildings.jpg'
 import Stylesheet from '../static/stylesheets/BackGroundSlider.css'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
