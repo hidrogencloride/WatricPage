@@ -43,22 +43,22 @@ export default class BackGroundSlider extends React.Component {
                             <Carousel.Item >
                                 <img className={""}  style={style} alt="900x500" src={test} />
                                     <Carousel.Caption>
-                                        <p style={{marginLeft:-900, marginBottom: 110}} className={"caption"}> energy</p>
+                                        <p style={{marginBottom: 110}} className={"caption"}> energy</p>
                                     </Carousel.Caption>
                             </Carousel.Item>
 
                             <Carousel.Item>
                                 <img className={""} style={style} src={cliff} />
                                 <Carousel.Caption>
-                                    <p style={{marginLeft:-900, marginBottom: 110}} className={"caption"}> water</p>
+                                    <p style={{marginBottom: 110}} className={"caption"}> water</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
                     </div>
 
-                    <div id={"slogan"}>
+                    <div >
                         <div className ="col-md-12 text-center">
-                                <p style={{marginLeft:-950}}>
+                                <p id={"slogan"}>
                                     Like Creating
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     out of thin air

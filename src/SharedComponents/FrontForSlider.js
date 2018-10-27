@@ -11,7 +11,7 @@ export default class FrontForSlider extends React.Component{
     render(){
         return(
             <div id={"ABOUT"} className={"front-part"}>
-                <h1 style={{textTransform: "capitalize" }}>
+                <h1 className={"about-header"} style={{textTransform: "capitalize" }}>
                     ABOUT US
                 </h1>
 
