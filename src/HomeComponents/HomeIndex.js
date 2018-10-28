@@ -27,7 +27,7 @@ export default class HomeIndex extends React.Component{
                             <h1 id={"SUPPORT"}> SUPPORT US </h1>
                             <div>
                                 <div className={"col-sm-4"}>
-                                    <img className={"img img-responsive"} src={Logo}/>
+                                    <img className={"img img-responsive"} src={Logo} style={{paddingBottom: 120}}/>
                                 </div>
                             </div>
                             <p id={"SUPPORT-Body"}>

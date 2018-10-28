@@ -28,20 +28,24 @@
 }
 
 #slogan{
-    bottom: 57px;
-    left: -65px;
-    padding-left: 10%;
-    position: absolute;
+    top: -80px;
+    right: 10px;
+    /*bottom: 57px;*/
+    /*left: -65px;*/
+   /* padding-left: 10%;*/
+    position: relative;
     width:100%;
-    color:red;
-    text-align:left;
+    color:white;
+    text-align:center;
     font-size: 40px;
     font-family: sans-serif;
     z-index: 1;
 }
 
 .caption{
-    left: 9.5%;
+    /*left: -430px;*/
+    top: 45px;
+    right: 10px;
     position: relative;
     font-size: 40px;
     font-family: sans-serif;
@@ -112,8 +116,8 @@
 
     #slogan{
         position: relative;
-        top: -410px;
-        left: 0px;
+        top: -420px;
+        left: -27px;
         padding-left: 10%;
         width:100%;
         color:white;
@@ -124,12 +128,12 @@
     }
 
     .caption{
-
-        position: absolute;
-        font-size: 8px;
+        position: relative;
+        top: 120px;
+        font-size: 40px;
         font-family: sans-serif;
-        z-index: 2;
-        color: white;
+        z-index: 0;
+        color: red;
     }
 
     .learn-more{
@@ -141,13 +145,16 @@
         font-family: sans-serif;
     }
 
+    #backgroundslider{
+        height: 25%;
+    }
+
     #BackgroundSlider > .carousel > .carousel-indicators {
         bottom: 0px;
     }
 
     #BackgroundSlider > .carousel > .carousel-caption {
         z-index: 1;
-
     }
 
     #BackgroundSlider > .carousel > .carousel-inner > .item > img{
