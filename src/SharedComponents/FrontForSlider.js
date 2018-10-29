@@ -17,9 +17,9 @@ export default class FrontForSlider extends React.Component{
 
                 <p className={"about-text"} align="left" style={{ paddingLeft:'6%', marginTop:'5%'}}>
 
-                    We bring sustainability by developing and
+                    We bring sustainability by developing
                     <br/>
-                    implementing new ways of resources extraction and renewable energy.
+                    and implementing new ways of resources extraction and renewable energy.
                     <br/>
 
                 </p>
