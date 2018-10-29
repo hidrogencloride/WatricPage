@@ -37,7 +37,7 @@ export default class HomeIndex extends React.Component{
                                 where you will impulse our progress and take our technology into market. Click below to support us now.
                             </p>
                             <p className={"support-us"} align="right">
-                                Support us <a href="https://watricpr.com/supportUs">here</a>!
+                                Support us <a href="supportUs">here</a>!
                             </p>
                         </div>
 

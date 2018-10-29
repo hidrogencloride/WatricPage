@@ -24,7 +24,7 @@ export default class FrontForSlider extends React.Component{
 
                 </p>
                 <p className={"learn-more"} align="right">
-                    Learn more <a href="https://watricpr.com/about">here</a>.
+                    Learn more <a href="about">here</a>.
                 </p>
             </div>
         )
