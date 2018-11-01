@@ -2,7 +2,7 @@ import React from 'react'
 
 import {Carousel} from 'react-bootstrap'
 import test from '../static/images/asphalt-cars-drive-541333.png'
-import cliff from '../static/images/blur-bubble-clean-221382.png'
+import cliff from '../static/images/android-wallpaper-drops-of-water-hd-wallpaper-8633.jpg'
 import sun from '../static/images/sun-on-buildings.jpg'
 import Stylesheet from '../static/stylesheets/BackGroundSlider.css'
 import FrontForSlider from '../SharedComponents/FrontForSlider'
@@ -59,7 +59,7 @@ export default class BackGroundSlider extends React.Component {
                     <div >
                         <div className ="col-md-12 text-center">
                                 <p id={"slogan"}>
-                                    Like Creating
+                                    Like creating
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     out of thin air
                                 </p>

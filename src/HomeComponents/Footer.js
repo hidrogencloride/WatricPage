@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterCSS from '../static/stylesheets/Footer.css'
 import mail from '../static/images/gmail2.png'
+import location from '../static/images/location.png'
 
 export default class Footer extends React.Component{
     render(){
@@ -14,6 +15,11 @@ export default class Footer extends React.Component{
                 <img className={"email-icon"} src={mail} align="left"/>
                 <p className={"email-text"} align="left">
                     watric.er@gmail.com
+                </p>
+
+                <img className={"location-icon"} src={location} align="left"/>
+                <p className={"location-text"} align="left">
+                    177 Balboa, Parque Industrial La Quintana, Mayaguez, PR, 00680
                 </p>
             </div>
 
