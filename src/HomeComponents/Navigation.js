@@ -9,8 +9,7 @@ export default class Navigation extends React.Component{
         super();
         this.Constants = {
             ABOUT: document.getElementById("ABOUT"),
-            CONTACT: document.getElementById("CONTACT"),
-            SERVICES: document.getElementById("SERVICES"),
+            SUPPORT: document.getElementById("SUPPORT"),
             PRODUCTS: document.getElementById("PRODUCTS")
         }
     }
@@ -51,12 +50,9 @@ export default class Navigation extends React.Component{
                     <NavItem onClick={()=>{this.scrollDown(document.getElementById("PRODUCTS"))}} eventKey={2} href="#">
                         Products
                     </NavItem>
-                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("SERVICES"))}} eventKey={1} href="#">
-                        Services
-                    </NavItem>
 
-                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("CONTACT"))}} >
-                        Contact Us
+                    <NavItem onClick={()=>{this.scrollDown(document.getElementById("SUPPORT"))}} >
+                        Support Us
                     </NavItem>
 
                 </Nav>
