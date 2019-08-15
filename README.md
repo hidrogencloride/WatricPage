@@ -1,4 +1,16 @@
 # WatricPage
-<h1> Para Correr Demo Abre cmd en tu directorio y corre:</h1>
-<blockquote>npm run start</blockquote>
-<p>Luego ve a localhost:8080</p>
+
+#Setup
+To install packages you'll need to first run:
+
+``` bash
+npm install
+```
+
+After node_modules are installed, to start application, run:
+
+``` bash
+npm run start
+```
+
+Runs locally on localhost:8080
